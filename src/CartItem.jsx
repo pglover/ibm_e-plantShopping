@@ -68,10 +68,10 @@ const CartItem = ({ onContinueShopping }) => {
         ))}
       </div>
       <div style={{ marginTop: '20px', color: 'black' }} className='total_cart_amount'></div>
-      <div className="continue_shopping_btn">
-        <button className="get-started-button" onClick={(e) => handleContinueShopping(e)}>Continue Shopping</button>
+      <div className="d-grid gap-2 col-6 mx-auto continue_shopping_btn">
+        <button className="btn btn-success btn-lg" onClick={(e) => handleContinueShopping(e)}>Continue Shopping</button>
         <br />
-        <button className="get-started-button1" onClick={(e) => handleCheckoutShopping(e)}>Checkout</button>
+        <button className="btn btn-success btn-lg" onClick={(e) => handleCheckoutShopping(e)}>Checkout</button>
       </div>
     </div>
   );
