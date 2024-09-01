@@ -286,7 +286,7 @@ function ProductList() {
   return (
     <div>
       <nav className="d-flex p-3 bg-success">
-        <a className="navbar-brand ms-2" href="/">
+        <a className="navbar-brand ms-2" href=".">
           <img
             src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png"
             alt=""
@@ -294,7 +294,7 @@ function ProductList() {
         </a>
         <a
           className="text-white link-underline link-underline-opacity-0"
-          href="/">
+          href=".">
           <div className="container">
             <div className="row">
               <div className="col">
